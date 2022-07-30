@@ -3,9 +3,7 @@
 ## Table of Content
 1. [Description](README.md#Description)
 2. [Requirements](README.md#Requirements)
-<!-- 3. [Usage](README.md#Usage)
-4. [Modules](README.md#Structure)
-5. [Contact](README.md#Contact) -->
+3. [Contact](README.md#Contact)
 
 ## Description
 This program is to extract the information in an EBSD ipf map and represent a complete picture with a small number of parameters.
@@ -23,3 +21,6 @@ This program is to extract the information in an EBSD ipf map and represent a co
 - csv
 - xlrd
 - json
+
+## Contact
+Please contact Su Yang at [77303474@qq.com](mailto:77303474@qq.com) if you have any questions or suggestions.
