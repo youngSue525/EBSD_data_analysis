@@ -43,11 +43,10 @@ def sep_color(img_arr):
     return r_list, g_list, b_list
 
 
-if __name__ == "__main__":
+def cluster_3parts(path):
 
 ##########  读取原图的配色信息  ################
 
-    path = "F:/BaiduNetdiskDownload/NGRF-LSI-GeneratorPaper-main/NGRF-LSI-GeneratorPaper-main/PIC/AZ62/IPF-90.bmp"
     img = plt.imread(path)
 
     # print(img.shape)
@@ -108,6 +107,8 @@ if __name__ == "__main__":
     mu3 = np.mean(distance_b)
     sigma3 = np.std(distance_b)
     print(mu3, sigma3)
+    
+    return centroid_r, mu1, sigma1, centroid_g, mu2, sigma2, centroid_b, mu3, sigma3
 
 
 
