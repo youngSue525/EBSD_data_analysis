@@ -43,6 +43,8 @@ To minimize the number of parameters that need to be saved, we default the numbe
 4. Database
 We use 'mongoDB' to efficiently store data, including the above analysis data and various data related to the performance obtained from papers or experiments.
 
+![image](EBSD_data_analysis_master/documents/Figure_029.png)
+
    In this way, we can build a database of EBSD images associated with material properties. It should be noted that each piece of data will only take up very little      storage space.
 
 ## Contact
