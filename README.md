@@ -11,6 +11,8 @@
 This program is to extract the information in an EBSD ipf map and represent a complete picture with a small number of parameters.
 Thus, storing particularly useful information from a complete EBSD image in a database requires very little storage space. This will be of great benefit to building huge databases and fast queries. In addition, it is also potentially helpful for artificial intelligence, etc.
 
+![image](EBSD_data_analysis_master/documents/intro.png)
+
 ## Requirements
 - numpy
 - matplotlib
