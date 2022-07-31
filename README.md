@@ -34,12 +34,12 @@ At present, it mainly supports pictures in formats such as jgp, png, and bmp, an
 3. Analysis
 To minimize the number of parameters that need to be saved, we default the number of clusters to 3. Of course, you can also simply change the code to increase the number of clusters as needed.
 
-Finally, the information we get through an EBSD ipf map is: 1. The number of grains contained in the image and their average size; 2. The 3 most representative RGB values (representing orientation information) and their concentrations (expressed with a Gaussian distribution).
+   Finally, the information we get through an EBSD ipf map is: 1. The number of grains contained in the image and their average size; 2. The 3 most representative RGB    values (representing orientation information) and their concentrations (expressed with a Gaussian distribution).
 
 4. Database
 We use 'mongoDB' to efficiently store data, including the above analysis data and various data related to the performance obtained from papers or experiments.
 
-In this way, we can build a database of EBSD images associated with material properties. It should be noted that each piece of data will only take up very little storage space.
+   In this way, we can build a database of EBSD images associated with material properties. It should be noted that each piece of data will only take up very little      storage space.
 
 ## Contact
 Please contact Su Yang at [77303474@qq.com](mailto:77303474@qq.com) if you have any questions or suggestions.
