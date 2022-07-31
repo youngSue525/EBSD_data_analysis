@@ -34,6 +34,8 @@ At present, it mainly supports pictures in formats such as jgp, png, and bmp, an
 3. Analysis
 To minimize the number of parameters that need to be saved, we default the number of clusters to 3. Of course, you can also simply change the code to increase the number of clusters as needed.
 
+![image](https://github.com/youngSue525/EBSD_data_analysis/EBSD_data_analysis_master/main/README.md)
+
    Finally, the information we get through an EBSD ipf map is: 1. The number of grains contained in the image and their average size; 2. The 3 most representative RGB    values (representing orientation information) and their concentrations (expressed with a Gaussian distribution).
 
 4. Database
